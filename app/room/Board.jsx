@@ -1,4 +1,5 @@
 // Board.js (Client-side)
+"use client";
 import React, { useEffect, useRef } from 'react';
 import { useSocket } from '../../context/SocketProvider';
 
