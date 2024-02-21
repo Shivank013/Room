@@ -363,13 +363,15 @@ const RoomPage = () => {
       <div className=" w-[78%] h-full flex justify-center items-center overflow-hidden bg-gray-600">
 
       <div className=" absolute z-30 scale-[180%]">
-      { youPresent ? (
+      { youPresent ? 
+            (
+              ownScreen &&
               <ReactPlayer 
-                playing={true}
-                muted={true}
-                url={ownScreen}
-              />
-              ) 
+                    playing={true}
+                    muted={true}
+                    url={ownScreen}
+              />  
+            ) 
         : 
             (
               screenshare && remoteStream &&
