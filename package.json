@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "agora-rtc-sdk-ng": "^4.20.0",
     "codemirror": "^6.0.1",
     "html2canvas": "^1.4.1",
     "jsdom": "^24.0.0",

@@ -38,7 +38,7 @@ const RoomPage = () => {
   const {room} = useContext(SocketContext);
   const router = useRouter();
   const [callend,setcallend] = useState(false);
-  const [vedio, setvedio] = useState(false);
+  const [vedio, setvedio] = useState(false); 
   const [audio, setaudio] = useState(true);
   const [remotevedio, setremotevedio] = useState(false);
   const [remoteaudio, setremoteaudio] = useState(true);

@@ -44,7 +44,7 @@ const Chat = () => {
       <div className="flex flex-col">
         <div
           className="overflow-y-auto overflow-x-hidden gap-2 flex flex-col h-[22rem] m-1"
-          style={{ scrollbarWidth: 'none', '-ms-overflow-style': 'none' }}
+          style={{ scrollbarWidth: 'none', ' msOverflowStyle': 'none' }}
           ref={messageContainerRef}
         >
           {messages.map((msg, index) => (
